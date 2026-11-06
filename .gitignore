@@ -218,3 +218,26 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+
+# Virtual environment
+.venv/
+venv/
+
+# Python cache
+__pycache__/
+*.pyc
+
+# Jupyter notebooks
+.ipynb_checkpoints/
+
+# Network intrusion detection datasets
+data/*
+!data/.gitkeep
+
+# Trained machine learning models
+*.pkl
+*.joblib
+
+# Environment variables
+.env
