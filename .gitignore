@@ -241,3 +241,6 @@ data/*
 
 # Environment variables
 .env
+
+# Ignore generated results
+results/*.csv
